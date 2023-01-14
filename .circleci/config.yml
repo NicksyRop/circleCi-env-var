@@ -25,7 +25,7 @@ jobs:
       - checkout
       - run:
           name: "say name"
-          command: echo ${my_name}
+          command: echo $my_name
                     
 
 
